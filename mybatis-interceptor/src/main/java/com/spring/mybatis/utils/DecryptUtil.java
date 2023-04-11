@@ -1,8 +1,11 @@
 package com.spring.mybatis.utils;
 
 /**
- * @author 16247
- * 定义解密接口
+ * @Author FlyFish
+ * @Link https://github.com/oddnumber7
+ * @ClassName DecryptUtil
+ * @Create 2023/4/11 17:59
+ * @Description 定义解密接口
  */
 public interface DecryptUtil {
  

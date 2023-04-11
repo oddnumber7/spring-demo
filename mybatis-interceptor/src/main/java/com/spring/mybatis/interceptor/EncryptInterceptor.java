@@ -18,11 +18,15 @@ import java.sql.PreparedStatement;
 import java.util.*;
 
 /**
+ * @Author FlyFish
+ * @Link https://github.com/oddnumber7
+ * @ClassName EncryptInterceptor
+ * @Create 2023/4/11 17:59
+ * @Description
  * 数据库更新操作拦截器
  * 支持的使用场景
  * ①场景一：通过mybatis-plus BaseMapper自动映射的方法
  * ②场景一：通过mapper接口自定义的方法
- * @author 16247
  */
 @Slf4j
 @Component
@@ -86,6 +90,7 @@ public class EncryptInterceptor implements Interceptor {
         BoundSql boundSql = (BoundSql) boundSqlField.get(parameterHandler);
         //获取要插入的参数类型，如果是@Param参数形式则为NULL
         Class<?> clazz = mappedStatement.getParameterMap().getType();
+        //对象操作
         if (parameterObjectClass == clazz) {
             //判断实体是否被@SensitiveData所注解
             if (needToEncrypt(clazz)) {
@@ -95,6 +100,7 @@ public class EncryptInterceptor implements Interceptor {
             }
             return invocation.proceed();
         }
+        //修改操作会对paramMap重命名
         if (parameterObject instanceof MapperMethod.ParamMap && ((MapperMethod.ParamMap<?>) parameterObject).containsKey(UPDATE_PRE)) {
             Map<String, Object> paramMap = (HashMap<String, Object>) parameterObject;
             Object updateParam = paramMap.get(UPDATE_PRE);
@@ -105,6 +111,7 @@ public class EncryptInterceptor implements Interceptor {
             }
             return invocation.proceed();
         }
+        //XML操作
         if (parameterObject instanceof MapperMethod.ParamMap) {
             Map<String, Object> paramMap = (HashMap<String, Object>) parameterObject;
             //判断表是否存在维护的解密Map中
@@ -121,6 +128,7 @@ public class EncryptInterceptor implements Interceptor {
             }
             invocation.proceed();
         }
+        //其他情况直接放行
         return invocation.proceed();
     }
 

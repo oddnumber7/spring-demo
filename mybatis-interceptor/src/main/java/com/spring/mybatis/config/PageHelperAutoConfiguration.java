@@ -42,7 +42,7 @@ import java.util.List;
 /**
  * @Author FlyFish
  * @Link https://github.com/oddnumber7
- * @ClassName MybatisController
+ * @ClassName PageHelperAutoConfiguration
  * @Create 2023/4/11 17:59
  * @Description 自定注入分页插件
  */

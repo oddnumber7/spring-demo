@@ -62,4 +62,10 @@ public class MybatisController {
         studentService.updateByXml(4,6, "FlyFish");
     }
 
+    @GetMapping(value = "/page/{page}/{size}")
+    public List<Student> page(@PathVariable("page") Integer page,
+                                 @PathVariable("size") Integer size){
+        return studentService.page(page, size);
+    }
+
 }

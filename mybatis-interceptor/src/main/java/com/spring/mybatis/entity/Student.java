@@ -13,7 +13,11 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @author 16247
+ * @Author FlyFish
+ * @Link https://github.com/oddnumber7
+ * @ClassName Student
+ * @Create 2023/4/11 17:59
+ * @Description
  */
 @Data
 @NoArgsConstructor

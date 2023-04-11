@@ -8,11 +8,14 @@ import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 
 /**
- * @author 16247
- * AES工具类
+ * @Author FlyFish
+ * @Link https://github.com/oddnumber7
+ * @ClassName AesUtil
+ * @Create 2023/4/11 17:59
+ * @Description AES工具类
  */
 @Component
-public class AESUtil {
+public class AesUtil {
 
     private static final String ALGORITHM = "AES";
 

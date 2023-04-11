@@ -2,7 +2,7 @@ package com.spring.mybatis.utils.impl;
 
 
 import com.spring.mybatis.annotation.SensitiveField;
-import com.spring.mybatis.utils.AESUtil;
+import com.spring.mybatis.utils.AesUtil;
 import com.spring.mybatis.utils.EncryptUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -11,14 +11,17 @@ import java.lang.reflect.Field;
 import java.util.Objects;
 
 /**
- * @author 16247
- * AES工具加密实现类
+ * @Author FlyFish
+ * @Link https://github.com/oddnumber7
+ * @ClassName AesEncrypt
+ * @Create 2023/4/11 17:59
+ * @Description AES工具加密实现类
  */
 @Component
-public class AESEncrypt implements EncryptUtil {
+public class AesEncrypt implements EncryptUtil {
 
     @Autowired
-    private AESUtil aesUtil;
+    private AesUtil aesUtil;
 
     /**
      * 加密

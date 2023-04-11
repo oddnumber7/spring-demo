@@ -3,8 +3,11 @@ package com.spring.mybatis.utils;
 import java.lang.reflect.Field;
 
 /**
- * @author 16247
- * 定义加密接口
+ * @Author FlyFish
+ * @Link https://github.com/oddnumber7
+ * @ClassName EncryptUtil
+ * @Create 2023/4/11 17:59
+ * @Description 定义加密接口
  */
 public interface EncryptUtil {
 
