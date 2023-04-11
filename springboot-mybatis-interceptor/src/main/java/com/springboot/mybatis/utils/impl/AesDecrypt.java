@@ -1,9 +1,9 @@
-package com.spring.mybatis.utils.impl;
+package com.springboot.mybatis.utils.impl;
 
 
-import com.spring.mybatis.annotation.SensitiveField;
-import com.spring.mybatis.utils.AesUtil;
-import com.spring.mybatis.utils.DecryptUtil;
+import com.springboot.mybatis.annotation.SensitiveField;
+import com.springboot.mybatis.utils.AesUtil;
+import com.springboot.mybatis.utils.DecryptUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

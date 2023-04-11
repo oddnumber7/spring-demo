@@ -1,7 +1,7 @@
-package com.spring.mybatis.interceptor;
+package com.springboot.mybatis.interceptor;
 
-import com.spring.mybatis.annotation.SensitiveData;
-import com.spring.mybatis.utils.EncryptUtil;
+import com.springboot.mybatis.annotation.SensitiveData;
+import com.springboot.mybatis.utils.EncryptUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.binding.MapperMethod;
 import org.apache.ibatis.executor.parameter.ParameterHandler;

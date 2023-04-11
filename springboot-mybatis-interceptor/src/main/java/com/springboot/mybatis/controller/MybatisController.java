@@ -1,7 +1,7 @@
-package com.spring.mybatis.controller;
+package com.springboot.mybatis.controller;
 
-import com.spring.mybatis.entity.Student;
-import com.spring.mybatis.service.StudentService;
+import com.springboot.mybatis.entity.Student;
+import com.springboot.mybatis.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.spring.mybatis.annotation;
+package com.springboot.mybatis.annotation;
 
 import java.lang.annotation.*;
 

@@ -1,11 +1,11 @@
-package com.spring.mybatis.service.impl;
+package com.springboot.mybatis.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
-import com.spring.mybatis.entity.Student;
-import com.spring.mybatis.mapper.StudentMapper;
-import com.spring.mybatis.service.StudentService;
+import com.springboot.mybatis.entity.Student;
+import com.springboot.mybatis.mapper.StudentMapper;
+import com.springboot.mybatis.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.spring.mybatis.config;
+package com.springboot.mybatis.config;
 
 import com.github.pagehelper.PageInterceptor;
 import com.github.pagehelper.autoconfigure.PageHelperProperties;

@@ -1,8 +1,8 @@
-package com.spring.mybatis.interceptor;
+package com.springboot.mybatis.interceptor;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
-import com.spring.mybatis.annotation.SensitiveData;
-import com.spring.mybatis.utils.DecryptUtil;
+import com.springboot.mybatis.annotation.SensitiveData;
+import com.springboot.mybatis.utils.DecryptUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.executor.resultset.ResultSetHandler;
 import org.apache.ibatis.plugin.*;

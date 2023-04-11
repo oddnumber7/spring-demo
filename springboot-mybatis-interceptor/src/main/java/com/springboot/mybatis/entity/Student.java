@@ -1,11 +1,11 @@
-package com.spring.mybatis.entity;
+package com.springboot.mybatis.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.spring.mybatis.annotation.SensitiveData;
-import com.spring.mybatis.annotation.SensitiveField;
+import com.springboot.mybatis.annotation.SensitiveData;
+import com.springboot.mybatis.annotation.SensitiveField;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

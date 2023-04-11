@@ -1,7 +1,7 @@
-package com.spring.mybatis.service;
+package com.springboot.mybatis.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.spring.mybatis.entity.Student;
+import com.springboot.mybatis.entity.Student;
 
 import java.util.List;
 

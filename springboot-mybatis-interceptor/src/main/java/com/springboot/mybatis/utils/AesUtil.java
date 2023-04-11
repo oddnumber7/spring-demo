@@ -1,4 +1,4 @@
-package com.spring.mybatis.utils;
+package com.springboot.mybatis.utils;
 
 import org.springframework.stereotype.Component;
 
