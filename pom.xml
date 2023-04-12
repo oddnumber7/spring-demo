@@ -12,6 +12,7 @@
     <modules>
         <module>springboot-mybatis-interceptor</module>
         <module>springboot-fastdfs</module>
+        <module>springboot-redis</module>
     </modules>
 
     <properties>
